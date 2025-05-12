@@ -1,0 +1,13 @@
+<div class="show-container">
+
+  <% if flash[:notice] %>
+    <p style="color: green;"><%= flash[:notice] %></p>
+  <% end %>
+
+  <h2 class="show-p">Title: <%= @book.title %></h2>
+
+  <h2 class="show-p">Body: <%= @book.body %></h2>
+
+  <%= link_to 'Edit', edit_book_path(@book.id) %> |
+  <%= link_to 'Back', books_path %>
+</div>

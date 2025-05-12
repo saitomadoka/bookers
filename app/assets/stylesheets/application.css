@@ -1,0 +1,70 @@
+.top-title {
+  font-size: 28px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.top-box {
+  margin-left: 40px;        
+  padding: 10px;
+  max-width: 500px;
+}
+
+.top-box p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.main-container {
+  margin: 40px; 
+}
+
+.show-container {
+  margin: 40px
+}
+
+.show-p{
+  font-size: 12px;
+}
+
+.edit-container{
+  margin: 40px;
+}
+
+.error-box {
+  border: 3px solid #c0392b;
+  margin-bottom: 20px;
+  width: 468px;
+}
+
+.error-box-header {
+  background-color: #c0392b;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.error-box-body {
+  background-color: #f2f2f2;
+  padding: 15px;
+  height: 116px;
+  overflow-y: auto; 
+}
+
+
+/* ラベル（label）は赤背景＋白文字、枠線なし */
+.field_with_errors label {
+  background-color: #e74c3c;
+  display: inline-block;
+  font-weight: bold;
+  border: none;
+  border-radius: 2px;
+}
+
+/* 入力欄・テキストエリアなどには赤枠 */
+.field_with_errors input,
+.field_with_errors textarea,
+.field_with_errors select {
+  border: 3px solid #e74c3c;
+  border-radius: 3px;
+}
